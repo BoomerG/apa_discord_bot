@@ -159,10 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+team_8_stats.csv
+team_9_stats.csv
 8ball_ss.png
 9ball_ss.png
 matchup.html
 test.py
 test.html
-team_8_stats.csv
-team_9_stats.csv
