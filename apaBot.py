@@ -2,8 +2,8 @@ from dotenv import load_dotenv, dotenv_values
 import os
 import discord
 from discord.ext import commands
-import update
-import screenshot
+from update import main
+from screenshot import take_screenshot
 
 load_dotenv()
 intents = discord.Intents.default()
@@ -16,8 +16,8 @@ async def on_ready():
 
 @bot.command(name='update')
 async def update(ctx):
-    ud = update.main()
-    ss = screenshot.take_screenshot()
+    ud = main()
+    ss = take_screenshot()
     await ctx.send("Doing an APA scrape. This will take awhile... I'll let you know when I'm done.")
     await ud
     await ctx.send("Generating snapshots of updated APA scrape...")
