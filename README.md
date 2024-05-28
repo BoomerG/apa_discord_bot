@@ -21,3 +21,4 @@ This program utilizes .env file for storing username, password, bot token, etc. 
 
 ![8ball_ss](https://github.com/BoomerG/apa_discord_bot/assets/15632406/0a04912a-81d5-418a-ab69-342dd3d1ce83)
 ![9ball_ss](https://github.com/BoomerG/apa_discord_bot/assets/15632406/1e82d77e-edcb-4e6c-ab25-8c25338270e6)
+![discordexample](https://github.com/BoomerG/apa_discord_bot/assets/15632406/8f81b0ac-ce47-4463-9a6f-38a833de54ff)
